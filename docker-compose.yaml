@@ -1,0 +1,7 @@
+miniserver:
+  container_name: miniserver
+  image: wincus/miniserver:latest
+  ports:
+    - 8080:8080
+  environment:
+    - "PORT=:8080"
